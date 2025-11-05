@@ -4,7 +4,7 @@ let totalBelanja = 0;
 let infoDiskon = "";
 
 switch (true) {
-  case belanja < 5_00_000:
+  case belanja >= 0 && belanja < 5_00_000:
     diskon = 0;
     infoDiskon = "Anda tidak mendapatkan diskon";
     break;
