@@ -18,7 +18,7 @@ if (belanja > 0 && belanja < 500_000) {
 
 totalBelanja = belanja - diskon;
 
-if (totalBelanja != 0 || totalBelanja < 0) {
+if (belanja>= 0) {
   console.log(infoDiskon);
   console.log("Belanja Anda = " + belanja);
   console.log("Total diskon = " + diskon);
